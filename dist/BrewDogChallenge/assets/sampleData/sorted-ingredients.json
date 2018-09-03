@@ -1,0 +1,136 @@
+[
+  {
+    "name": "Extra Pale",
+    "amount": {
+      "value": 9.69,
+      "unit": "kilograms"
+    },
+    "type": "malt",
+    "buttonState": "IDLE"
+  },
+  {
+    "name": "Chocolate",
+    "amount": {
+      "value": 0.19,
+      "unit": "kilograms"
+    },
+    "type": "malt",
+    "buttonState": "IDLE"
+  },
+  {
+    "name": "Carafa Special Malt Type 3",
+    "amount": {
+      "value": 0.44,
+      "unit": "kilograms"
+    },
+    "type": "malt",
+    "buttonState": "IDLE"
+  },
+  {
+    "name": "Tomahawk",
+    "amount": {
+      "value": 31.25,
+      "unit": "grams"
+    },
+    "add": "start",
+    "attribute": "bitter",
+    "type": "hops",
+    "buttonState": "IDLE"
+  },
+  {
+    "name": "Magnum",
+    "amount": {
+      "value": 12.5,
+      "unit": "grams"
+    },
+    "add": "start",
+    "attribute": "bitter",
+    "type": "hops",
+    "buttonState": "IDLE"
+  },
+  {
+    "name": "Magnum",
+    "amount": {
+      "value": 12.5,
+      "unit": "grams"
+    },
+    "add": "middle",
+    "attribute": "flavour",
+    "type": "hops",
+    "buttonState": "IDLE"
+  },
+  {
+    "name": "Tomahawk",
+    "amount": {
+      "value": 12.5,
+      "unit": "grams"
+    },
+    "add": "end",
+    "attribute": "flavour",
+    "type": "hops",
+    "buttonState": "IDLE"
+  },
+  {
+    "name": "Centennial",
+    "amount": {
+      "value": 25,
+      "unit": "grams"
+    },
+    "add": "end",
+    "attribute": "flavour",
+    "type": "hops",
+    "buttonState": "IDLE"
+  },
+  {
+    "name": "Amarillo",
+    "amount": {
+      "value": 25,
+      "unit": "grams"
+    },
+    "add": "end",
+    "attribute": "flavour",
+    "type": "hops",
+    "buttonState": "IDLE"
+  },
+  {
+    "name": "Centennial",
+    "amount": {
+      "value": 25,
+      "unit": "grams"
+    },
+    "add": "dry hop",
+    "attribute": "aroma",
+    "type": "hops",
+    "buttonState": "IDLE"
+  },
+  {
+    "name": "Amarillo",
+    "amount": {
+      "value": 25,
+      "unit": "grams"
+    },
+    "add": "dry hop",
+    "attribute": "aroma",
+    "type": "hops",
+    "buttonState": "IDLE"
+  },
+  {
+    "name": "Tomahawk",
+    "amount": {
+      "value": 37.5,
+      "unit": "grams"
+    },
+    "add": "dry hop",
+    "attribute": "aroma",
+    "type": "hops",
+    "buttonState": "IDLE"
+  },
+  {
+    "name": "Wyeast 3522 - Belgian Ardennes™",
+    "amount": null,
+    "attribute": null,
+    "add": null,
+    "type": "yeast",
+    "buttonState": "IDLE"
+  }
+]

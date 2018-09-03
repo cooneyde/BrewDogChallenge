@@ -1,0 +1,16 @@
+<div class="tile" (click)="viewBeer()">
+
+  <h1 class="text">{{beer.name}}</h1>
+  <h2 class="text">{{beer.abv}}% abv</h2>
+
+  <div class="img-container">
+    <img src={{beer.image_url}} alt="Photo of {{beer.name}}" (click)="viewBeer()" type="button" class="image">
+  </div>
+
+  <div class="text">
+    <p>
+      {{beer.description}}
+    </p>
+  </div>
+</div>
+

@@ -1,0 +1,16 @@
+<div *ngIf="elementState == 'IDLE' " class="btn-container">
+  <img src="/assets/icons/check_circle_black.png" class="icon" type="button" (click)="setDone()">
+</div>
+
+<div *ngIf="elementState == 'RUNNING' " class="btn-container">
+  <img src="/assets/icons/progress-spinner.gif" class="icon" type="button" (click)="setDone()">
+</div>
+
+<div *ngIf="elementState == 'PAUSED'" class="btn-container">
+  <img src="/assets/icons/paused.svg" class="icon" type="button" (click)="setDone()">
+</div>
+
+<div *ngIf="elementState == 'DONE' " class="btn-container">
+  <img src="/assets/icons/check_circle_green.png" class="icon" type="button">
+</div>
+

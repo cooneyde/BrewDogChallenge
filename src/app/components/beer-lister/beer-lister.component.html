@@ -1,0 +1,13 @@
+<div class="beer-container">
+  <div class="instructionsTopBox">
+    <h1 class="text">List of BrewDog Beers:</h1>
+    <h3 class="text">Pick one of the beers below by clicking the title or the beer</h3>
+  </div>
+
+
+  <div *ngFor="let beer of beerList" class="tile">
+      <app-beer-summary-tile [beer]=beer></app-beer-summary-tile>
+
+  </div>
+</div>
+

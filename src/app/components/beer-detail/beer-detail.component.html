@@ -1,0 +1,24 @@
+<div class="beer-detail-container">
+  <h1 class="text">Beer Summary</h1>
+  <app-beer-detail-card [beer]="beerDetail"></app-beer-detail-card>
+
+  <div class="instructionsTopBox">
+    <h1 class="text">Ingredients</h1>
+    <label class="text">Add your ingredients in the order below, and tap done when each is added</label>
+  </div>
+
+  <div *ngFor="let item of ingredientsList; let i=index" class="beer-detail-container">
+    <app-ingredients-detail-card [item]="item" [list]="ingredientsList" [iterator]="i"></app-ingredients-detail-card>
+  </div>
+
+  <div class="instructionsTopBox">
+    <h1 class="text">Method</h1>
+  </div>
+
+  <div *ngFor="let item of methodList; let i=index" class="beer-detail-container">
+    <app-method-detail [item]="item" [list]="methodList" [iterator]="i"></app-method-detail>
+  </div>
+
+
+</div>
+

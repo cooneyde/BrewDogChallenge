@@ -1,0 +1,26 @@
+[
+  {
+    "temp": {
+      "value": 69,
+      "unit": "celsius"
+    },
+    "duration": 105,
+    "name": "mash_temp",
+    "buttonState": "IDLE"
+  },
+  {
+    "temp": {
+      "value": 21,
+      "unit": "celsius"
+    },
+    "name": "fermentation",
+    "buttonState": "IDLE"
+  },
+  {
+    "temp": {},
+    "name": "twist",
+    "duration": null,
+    "comment": "Aged in whisky barrels with raspberries, tayberries and blackberries",
+    "buttonState": null
+  }
+]

@@ -1,0 +1,27 @@
+<div class="item-container" *ngIf="item.name !== 'twist' else tips">
+  <div class="text-container">
+    <h3 class="text">{{strings[item.name]}}</h3>
+  </div>
+
+  <div *ngIf="item.temp !== null" class="icon-container">
+    <img src="/assets/icons/thermometer.svg" class="icon" alt="Temperature">
+    <h3 class="text">{{item.temp.value}} {{unitsMap[item.temp.unit]}}</h3>
+  </div>
+  <div *ngIf="item.duration !== null && item.duration >= 0" class="icon-container">
+    <img src="/assets/icons/clock.svg" class="icon" alt="time required">
+    <h3 class="text">{{item.duration}} mins</h3>
+
+  </div>
+
+  <app-step-complete [item]="item" [elementState]="item.buttonState" [itemIterator]="iterator" [list]="list"
+                     [itemType]="kMethod"></app-step-complete>
+
+</div>
+
+<ng-template #tips>
+  <div *ngIf="item.name == 'twist' && item.comment!=null" class="item-container">
+    <h1 class="text">Tips</h1>
+    <h3 class="text">{{item.comment}}</h3>
+  </div>
+
+</ng-template>

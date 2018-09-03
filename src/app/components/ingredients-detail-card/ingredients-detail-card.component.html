@@ -1,0 +1,15 @@
+<div class="item-container">
+  <div class="text-container">
+    <p class="text">{{item.type}}: {{item.name}}</p>
+  </div>
+
+  <div *ngIf="item.amount!==null" class="icon-container">
+    <img src="/assets/icons/scales.png" class="icon" alt="weight of ingredient">
+    <h3 class="text">{{item.amount.value}} {{unitsMap[item.amount.unit]}}</h3>
+
+  </div>
+
+  <app-step-complete [item]="item" [elementState]="item.buttonState" [itemIterator]="iterator" [list]="list"
+                     [itemType]="kIngredient"></app-step-complete>
+
+</div>
