@@ -45,6 +45,7 @@ The purpose of this ordering was to provide the user with a sorted list to avoid
 1. **Beer Lister**: Currently, the landing page displays all beers returned from the GET beers API. This will become a performance issue when the list numbers in hundreds.
 Due to available time, I did not prioritise the creation of an infinity scroll or a "more" button.
 
+1. **Error handling**:I did not have time to complete an error handling implementation to inform the user when an API call fails. If there was this would take the form of a dialog box on the beer lister and beer details page instead of what is rendered on success.
 
 ## Dependencies 
 All project dependencies are listed in the package.json. No additional dependencies outside Angular and Rxjs were used here.
