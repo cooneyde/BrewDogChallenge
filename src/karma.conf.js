@@ -12,12 +12,12 @@ module.exports = function (config) {
       require('karma-coverage-istanbul-reporter'),
       require('@angular-devkit/build-angular/plugins/karma')
     ],
-    client:{
+    client: {
       clearContext: false, // leave Jasmine Spec Runner output visible in browser
       captureConsole: true
     },
     coverageIstanbulReporter: {
-      reports: [ 'html', 'lcovonly', 'text-summary' ],
+      reports: ['html', 'lcovonly', 'text-summary'],
       fixWebpackSourcePaths: true,
       thresholds: {
         emitWarning: true, // set to `true` to not fail the test command when thresholds are not met
@@ -35,10 +35,10 @@ module.exports = function (config) {
         }
       },
       watermarks: {
-        statements: [ 50, 79 ],
-        functions: [ 50, 79 ],
-        branches: [ 50, 79 ],
-        lines: [ 50, 79 ]
+        statements: [50, 79],
+        functions: [50, 79],
+        branches: [50, 79],
+        lines: [50, 79]
       }
     },
     angularCli: {
@@ -54,8 +54,15 @@ module.exports = function (config) {
     port: 9876,
     colors: true,
     logLevel: config.LOG_INFO,
-    autoWatch: true,
-    browsers: ['Chrome'],
+    autoWatch: false,
+    browsers: ['ChromeHeadless'],
+    // you can define custom flags
+    customLaunchers: {
+      ChromeHeadlessNoSandbox: {
+        base: 'ChromeHeadless',
+        flags: ['--no-sandbox']
+      }
+    },
     singleRun: true,
 
   });
