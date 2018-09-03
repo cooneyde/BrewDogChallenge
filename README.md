@@ -22,7 +22,7 @@ Run `npm start` for a dev server. Navigate to `http://localhost:4200/`. The app 
 
 ## Running unit tests
 
-Run `npm test` to execute the unit tests. Code coverage is at 94% of source code
+Run `npm test` to execute the unit tests.
 
 
 ## Architectural Decisions
