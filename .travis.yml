@@ -18,7 +18,7 @@ install:
 script:
 - npm run lint
 - npm run build
-- npm test -- --code-coverage
+- npm test --code-coverage
 
 
 after_success:
