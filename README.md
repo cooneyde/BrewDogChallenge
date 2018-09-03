@@ -2,6 +2,8 @@
 
 [![Build Status](https://travis-ci.org/cooneyde/BrewDogChallenge.svg?branch=master)](https://travis-ci.org/cooneyde/BrewDogChallenge)
 
+[![codecov](https://codecov.io/gh/cooneyde/BrewDogChallenge/branch/master/graph/badge.svg)](https://codecov.io/gh/cooneyde/BrewDogChallenge)
+
 Required NodeJS version 8.2.1. [NodeJS](https://nodejs.org/en/download/)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.1.5.
